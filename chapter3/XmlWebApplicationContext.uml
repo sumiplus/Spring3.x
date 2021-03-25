@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.context.support.XmlWebApplicationContext</OriginalElement>
+  <nodes>
+    <node x="410.375" y="85.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+    <node x="115.25" y="255.0">org.springframework.context.ConfigurableApplicationContext</node>
+    <node x="449.5" y="255.0">org.springframework.web.context.WebApplicationContext</node>
+    <node x="156.0" y="595.0">org.springframework.web.context.support.AbstractRefreshableWebApplicationContext</node>
+    <node x="312.125" y="170.0">org.springframework.context.ApplicationContext</node>
+    <node x="0.0" y="510.0">org.springframework.context.support.AbstractRefreshableConfigApplicationContext</node>
+    <node x="328.0" y="340.0">org.springframework.web.context.ConfigurableWebApplicationContext</node>
+    <node x="62.0" y="340.0">org.springframework.context.support.AbstractApplicationContext</node>
+    <node x="210.0" y="680.0">org.springframework.web.context.support.XmlWebApplicationContext</node>
+    <node x="336.125" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+    <node x="22.5" y="425.0">org.springframework.context.support.AbstractRefreshableApplicationContext</node>
+    <node x="196.375" y="85.0">org.springframework.beans.factory.ListableBeanFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.context.support.AbstractRefreshableApplicationContext">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+      <point x="0.0" y="-17.5" />
+      <point x="521.875" y="60.0" />
+      <point x="443.375" y="60.0" />
+      <point x="35.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.context.support.XmlWebApplicationContext" target="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+      <point x="0.0" y="-17.5" />
+      <point x="293.375" y="60.0" />
+      <point x="371.875" y="60.0" />
+      <point x="-35.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.context.ConfigurableWebApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+      <point x="-77.5" y="-17.5" />
+      <point x="405.5" y="315.0" />
+      <point x="324.5" y="315.0" />
+      <point x="69.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext" target="org.springframework.context.support.AbstractRefreshableConfigApplicationContext">
+      <point x="-89.0" y="-17.5" />
+      <point x="245.0" y="570.0" />
+      <point x="185.0" y="570.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.context.WebApplicationContext" target="org.springframework.context.ApplicationContext">
+      <point x="0.0" y="-17.5" />
+      <point x="560.5" y="230.0" />
+      <point x="455.375" y="230.0" />
+      <point x="47.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+      <point x="0.0" y="-17.5" />
+      <point x="-69.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.context.support.AbstractRefreshableApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+      <point x="0.0" y="-17.5" />
+      <point x="254.75" y="230.0" />
+      <point x="359.875" y="230.0" />
+      <point x="-47.75" y="17.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+      <point x="47.75" y="-17.5" />
+      <point x="455.375" y="145.0" />
+      <point x="521.875" y="145.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.context.ConfigurableWebApplicationContext" target="org.springframework.web.context.WebApplicationContext">
+      <point x="77.5" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.web.context.support.AbstractRefreshableWebApplicationContext" target="org.springframework.web.context.ConfigurableWebApplicationContext">
+      <point x="89.0" y="-17.5" />
+      <point x="423.0" y="570.0" />
+      <point x="483.0" y="570.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+      <point x="-47.75" y="-17.5" />
+      <point x="359.875" y="145.0" />
+      <point x="293.375" y="145.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9775510204081632" x="409.8290741253113" y="355.7181628392484" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
