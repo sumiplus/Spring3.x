@@ -33,6 +33,8 @@ package org.openjdk.jol.samples;
 import org.openjdk.jol.info.ClassLayout;
 import org.openjdk.jol.vm.VM;
 
+import java.nio.ByteOrder;
+
 import static java.lang.System.out;
 
 /**
@@ -54,8 +56,18 @@ public class JOLSample_12_ThinLocking {
      * is reverted to the default value.
      */
 
+    /**
+     * add by wangyun<br/>
+     * -XX:-UseBiasedLocking
+     */
     public static void main(String[] args) throws Exception {
         out.println(VM.current().details());
+
+        if (ByteOrder.nativeOrder() == ByteOrder.BIG_ENDIAN) {
+            out.println("big endian");
+        } else {
+            out.println("litter endian");
+        }
 
         final A a = new A();
 

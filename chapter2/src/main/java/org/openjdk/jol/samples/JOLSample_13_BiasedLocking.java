@@ -56,6 +56,8 @@ public class JOLSample_13_BiasedLocking {
     public static void main(String[] args) throws Exception {
         out.println(VM.current().details());
 
+        // 由于jvm虚拟机默认开启偏向锁，并延迟4秒开启，所以需要sleep6秒，详细见：
+        // java -XX:+PrintFlagsFinal -version | findstr "Biased"
         TimeUnit.SECONDS.sleep(6);
 
         final A a = new A();
